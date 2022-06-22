@@ -8,5 +8,10 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function admin()
+    {
+        return view('admin/index');
+    }
     
 }
